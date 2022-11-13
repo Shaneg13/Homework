@@ -6,7 +6,7 @@ console.log(
   `Welcome to ${pizzaPlace}. We offer a total of ${numberOfToppings} Toppings for our pizza.`
 );
 
-if (numberOfToppings < 10) {
+if (numberOfToppings <= 10) {
   console.log('Dissapointed');
 } else if (numberOfToppings > 10);
 console.log('Too Many');
@@ -21,3 +21,5 @@ while (i <= numberOfToppings) {
 
 console.log(typeof pizzaPlace);
 console.log(typeof numberOfToppings);
+console.log(pizzaPlace);
+console.log(numberOfToppings);
