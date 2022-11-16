@@ -52,9 +52,9 @@ return [size, crust, toppings];
 function preparePizza([size, crust, ...toppings]) {
   console.log('Your pizza is in the oven!')
   let pizza = {
-    size: size,
-    crust: crust,
-    toppings: toppings,
+    pizzasize: size,
+    pizzacrust: crust,
+    pizzatoppings: toppings,
   };
   
   return pizza;
@@ -66,7 +66,7 @@ function preparePizza([size, crust, ...toppings]) {
 // outputs the same pizza Object that was passed in
 
 function servePizza(pizza) {
-  console.log(`Order up! Your pizza is ready. Your order was a ${pizza.size} ${pizza.crust}, ${pizza.toppings} pie. As always, thank you and enjoy!`);
+  console.log(`Order up! Your pizza is ready. Your order was a ${pizza.pizzasize} ${pizza.pizzacrust}, ${pizza.pizzatoppings} pie. As always, thank you and enjoy!`);
 
 return pizza;
 }
