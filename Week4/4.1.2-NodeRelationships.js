@@ -3,6 +3,7 @@
 const main = document.querySelector(".main-content");
 const body = document.querySelector("body");
 const header = document.querySelector("h2");
+const header1 = document.querySelector("h1");
 
 // select the last child of the root node
 

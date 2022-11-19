@@ -72,7 +72,7 @@ function cookingPizza() {
     `Cooking pizza! Your ${getPizzaOrder[1]} ${pizzaToppings[1]}, ${getPizzaOrder[2]} pizza is coming out!`
   );
 }
-cookingPizza('Shane');
+cookingPizza();
 
 let servePizza = 'Your pizza is ready';
 function orderUp() {
