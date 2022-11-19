@@ -27,7 +27,7 @@ pizzaPlace = "G-well's Pizza Palace";
 let hello = 'Hello';
 function greetCustomer(name) {
   console.log(
-    `${hello}, ${name}, Welcome to ${pizzaPlace}. We offer multiple topping for your pizza. Some options are ${pizzaToppings}.`
+    `${hello}, ${name, 'Shane'}, Welcome to ${pizzaPlace}. We offer multiple topping for your pizza. Some options are ${pizzaToppings}.`
   );
   for (let topping of pizzaToppings)
 {
